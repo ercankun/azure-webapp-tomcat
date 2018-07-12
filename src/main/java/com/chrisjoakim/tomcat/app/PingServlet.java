@@ -28,6 +28,7 @@ public class PingServlet extends HttpServlet {
         Date date = new Date();
         obj.put("date", date);
         obj.put("epoch", date.getTime());
+        obj.put("version", "2018/07/12 9:59");
         
         Enumeration<String> e = getServletConfig().getInitParameterNames();
         while (e.hasMoreElements()) {
@@ -45,7 +46,7 @@ public class PingServlet extends HttpServlet {
         obj.put("server_port",    request.getServerPort());
         obj.put("remote_address", request.getRemoteAddr());
         obj.put("remote_host",    request.getRemoteHost()); 
-        
+   
         ObjectMapper objectMapper= new ObjectMapper();
 
         response.setContentType("application/json");
