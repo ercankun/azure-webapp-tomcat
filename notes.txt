@@ -1,0 +1,4 @@
+
+
+- http://www.baeldung.com/spring-boot-war-tomcat-deploy
+- https://thepracticaldeveloper.com/2017/09/02/how-to-deploy-a-spring-boot-war-in-wildfly-jboss/
