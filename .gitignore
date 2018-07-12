@@ -1,4 +1,10 @@
 
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# compiled files
 target/
 
 # Compiled class file

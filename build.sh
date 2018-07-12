@@ -10,6 +10,6 @@ mvn clean compile package
 
 cp  target/t85.war /devroot/apache-tomcat-8.5.32/webapps
 
-ls -al /devroot/apache-tomcat-8.5.32/webapps
+ls -al /devroot/apache-tomcat-8.5.32/webapps | grep war$
 
 echo 'done'
